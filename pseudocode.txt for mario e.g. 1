@@ -1,4 +1,4 @@
-
+This is the pseudocode on how to make pyramid blocks in mario:
 
 Ask for an integer to represent the width of the pyramid
 if the width is less than 1 and more than 8, then ask for another integer
@@ -7,3 +7,14 @@ inside the first row, make 7 columns of dots and 1 column of hash using for loop
 in every next row, decrease the number of dots' column and increase the number of hashes' column
 when we reach our intended result, replace the dot with space
 Exit
+
+The output you will get from mario-less is:
+       #
+      ##
+     ###
+    ####
+   #####
+  ######
+ #######
+########
+Here, we have used hashes as the bricks we see while playing mario
